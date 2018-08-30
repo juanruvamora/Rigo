@@ -1,0 +1,81 @@
+Estructuras de control (if, for, for each, while, do while,switch, etc).
+
+que es if-else:
+if (condición) sentencia;
+
+Queremos realizar una división de enteros. Es fácil, ya sabemos como hacerlo, utilizando variables y operadores. Pero nos queda un mal recuerdo con la división por cero. Podemos establecer una condición que permita la división para todos los números y que rechace cualquier divisor con cara de cero. Disponemos de dos opciones : realizar o no la división. También una condición: el divisor sea distinto de cero. Esto se parece mucho a una selección simple
+
+ejemplo de if
+public class DivisionSegura {
+public static void main(String args[]){
+int x = 12;
+int y = 0;
+int z = 0;
+if( y !=0 ) z = x / y;
+System.out.println("El resultado es : " + z);
+}else{
+return null;
+}
+}
+
+que es for:
+
+una variable de control llamada i que es tipo entero (int), cabe notar que la variable se puede llamar como nosotros lo deseemos y puede ser del tipo de queramos también, sin embargo en la mayoría de los casos se usa la "i" como nombre y el entero como tipo, pero somos libres de modificar esto a nuestro gusto.
+
+ejemplo de for:
+public class Main {
+
+private static Logger logger = LoggerFactory.getLogger(Main.class);
+
+public static void main(String[] args) {
+    logger.info("for i");
+    for (int i = 0; i < 5; i++) {
+        logger.info("{}", i);
+    }
+que es foreach
+
+es un bloque constructivo, los bucles foreach por lo general no mantienen contra-indicación explícita, que esencialmente dice "haga esto a todo en este juego" en lugar de "hacer esto x veces." Esto evita posibles errores off-by-one y hace el código más fácil de leer.
+
+ejemplo de foreach
+for (int i : Arrays.asList(0, 1, 2, 3, 4)) {
+logger.info("{}", i);
+}
+
+que es do while
+
+La sentencia de iteración do-while es de tipo posprueba. Primero realiza las acciones luego pregunta. La sintaxis es la siguiente:
+
+do sentencia while ( condición );
+
+Observamos que es como un while pero al revés. Primeramente se ejecuta la sentencia y luego evalúa la condición. Si la expresión de la condición es verdadera vuelve a dar un ciclo. De lo contrario, termina. Esto nos garantiza que la sentencia se ejecute al menos una vez:
+
+do System.out.println("Lo veras una vez");
+while ( false );
+
+Resulta útil para los casos en donde tendremos que realizar ciertas acciones antes de verificar una condición.
+
+que es switch
+
+La instrucción switch es una forma de expresión de un anidamiento múltiple de instrucciones if ... else. Su uso no puede considerarse, por tanto, estrictamente necesario, puesto que siempre podrá ser sustituida por el uso de if. No obstante, a veces nos resultará útil al introducir mayor claridad en el código.
+
+ejemplo
+switch (expresión) {
+
+   case valor1:
+
+    instrucciones;
+
+    break;
+
+    case valor2:
+
+    instrucciones;
+
+    break;
+
+    default:
+
+    sentencias;
+
+    break;
+}
