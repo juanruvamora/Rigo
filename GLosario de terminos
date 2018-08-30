@@ -1,0 +1,42 @@
+**Bolean** (bolean, lógico) Tipos primitivos de datos en Java. El tipo bolean puede tomar sólo dos valores: true (verdadero) y false (falso).
+
+**Bytecode** (códigos de byte) Resultado de la compilación del código fuente Java. La JVM (Java Virtual Machine) interpreta los bytecodes con la finalidad de ejecutar un programa Java. El bytecode es independiente de la máquina y se puede ejecutar en  cualquier máquina que tenga un entorno de ejecución. Los bytecodes se almacenan en archivos class
+
+**Clase** (clase) Colección encapsulada de datos y operaciones que actúan sobre los datos. El concepto de clase es fundamental en programación orientada a objetos. Una clase consta
+demétodos y datos. Los métodos de una clase definen el conjunto de operaciones permitidas sobre los datos de unaclase (sus atributos). Una clase puede tener muchas instancia de la clase u objetos.
+
+**Clase abstracta** (abstract class) Superclase que contiene características comunes compartidas por las subclases. Se declaran utilizando la palabra reservada abstract. Las clases abstractas pueden contener datos y métodos, pero no se pueden instanciar (crear objetos); es decir, no se pueden crear objetos de esta clase
+
+**Herencia** (inheritance) Una relación entre clases en que una subclase se extiende desde una superclase
+Interfaz (interface) Una interfaz se trata como una clase especial de Java. Cada interface se compila en un archivo independiente de bytecode, tal como una clase ordinaria. No se puede crear un instancia de la interfaz. La estructura de una interfaz Java es similar al de una clase abstracta en la que se puede tener datos y métodos. Los datos ,sin embargo ,deben ser constantes y los métodos pueden tener sólo declaraciones sin implementación. En Java existe sólo herencia simple y una clase puede heredar de una supereclase. Esta restricción se puede superar por el uso de una interfaz. 
+
+**HTML** (Hypertext Markup Language) Lenguaje de ´script´ o de marcas para diseñar páginas Web para creación y compartición de documentos electrónicos integrados preparados para multimedia e Internet.
+
+**Jerarquía de clases** (class hierarchy) Colección de clases organizadas en términos de relaciones de superclases y subclases.
+
+
+**Método abstracto** (abstract method) Método que sólo tiene signatura y no tiene cuerpo, y debe estar contenido dentro de una clase abstracta. Su implementación se realiza en la subclase. Se repreenta mediante el modificador abstract. Los métodos abstractos deben implementarse en una subclase no abstracta incluso aunque no se utilicen.
+
+**Objeto instancia** (instance object) Un objeto instancia es un representación de un valor del tipo implementado por su clase. La clase declara un objeto de variables, instancia que forman la estructura de un objeto y un conjunto de métodos que se pueden llamar en un objeto.
+
+**Método de la instancia** (Instance method) Un método (o procedimiento)declarado por un clase que se llama por sus objetos de instancias (o los de las subclases)
+
+**Variable local** (local variable) Variable definida en el interior de una definición de un método.
+
+**Clase Principal** (main class) Una clase que contiene un método principal (main).
+
+**Método** (method) Una colección de sentencias que se agrupan juntos para ejecutar una operación.
+
+**Sobrecarga de un método** (method overloading) La sobrecarga de n método significa que se puede definir los métodos con el mismo nombre de una clase siempre que haya diferencia en sus parámetros.
+
+**Objeto (object)** Vease instancia. Una instancia de una clase específica. En general, se puede construir cualquier número de objetos a partir de una clase.
+
+**Sobrecarga** (overload) Proporciona dos o más métodos con el mismo nombre en el mismo ámbito ,diferenciado por tener listas de parámetros deferentes.
+
+**Paquete** (package) Colección de clases agrupadas juntas de métodos y datos. Los métodos de una clase definen el conjunto de operaciones permitidas sobre los datos de una clase (sus atributos). Una clase puede tener muchas instancias de la clase u objetos.
+
+** Privado** private un modificador de clase que solo la consola ingresa.
+
+** Público** (public) Un modificador de clases, datos y métodos a los que se puede acceder por todos los programas. 
+
+**Socket** (socket) Término que describe la facilitación de comunicación entre un servidor y un cliente. 
