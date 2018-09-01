@@ -1,9 +1,6 @@
 package clases;
 
-/**
- *
- * @author marti
- */
+
 public class alumno {
     
     public String nombre; // creo y nombro las variables que se van a conectar entre si
